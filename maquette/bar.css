@@ -1,0 +1,17 @@
+body {
+color:#FFFFFF;
+background-color:white;
+background-image:url(nantes3.jpg);
+width: 100%;
+margin: float;
+}
+body h1{
+	color: #FFFFFF;
+}
+.article a{
+	text-align:center;
+	color: #FFFFFF;
+}
+footer a{
+	text-align:center;
+}
