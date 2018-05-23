@@ -1,0 +1,11 @@
+body {
+color:#FFFFFF;
+background-color:white;
+background-image:url(./maquette/nantes1.jpg);
+width: 100%;
+margin: float;
+}
+.justify-content-end{
+	float: right;
+	top: 20px;
+}

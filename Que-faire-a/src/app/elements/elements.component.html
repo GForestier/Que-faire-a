@@ -1,0 +1,19 @@
+<h2>Nom</h2>
+<input [(ngModel)] = "bar.nom" />
+<br>
+<h2>Adresse</h2>
+<input [(ngModel)] = "bar.adresse" />
+<br>
+<h2>Horaires</h2>
+<input [(ngModel)] = "bar.horaires" />
+<br>
+<br>
+<button (click) = "addBar()">enregistrement</button>
+<br>
+<ul *ngFor = "let bar of bars">
+  <li>{{bar.nom|uppercase}}</li>
+  <li>{{bar.adresse}}</li>
+  <li>{{bar.horaires}}</li>
+  <li><button (click)= "editBar(bar.id)" *ngIf="!edit">edit</button></li>
+  <li><button (click)= "editOver(bar.id)" *ngIf="edit">Soumettre</button></li>
+</ul>
